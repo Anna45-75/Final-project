@@ -1,0 +1,127 @@
+.left__form-h1 {
+    font-family: "Ferry";
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.left__form-img {
+    width: 321px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card__form {
+    position: relative;
+    width: 429px;
+    height: 523px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 20px 30px;
+    margin: 30px 25px 10px;
+    text-align: center;
+}
+
+.card__img-form {
+    position: absolute;
+    z-index: +1;
+    top: -15px;
+    left: -30px;
+    width: 15%;
+}
+
+.log {
+    display: flex;
+}
+
+.login__form {
+    color: rgba(2, 148, 145, 1);
+    border-bottom: solid 2px;
+    width: 151px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reg {
+    color: rgba(199, 199, 199, 1);
+    border-bottom: solid 2px;
+    width: 213px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.inp {
+    margin-top: 30px;
+    color: rgba(148, 148, 148, 1);
+    text-align: left;
+
+}
+
+.inp input {
+    margin-top: -5px;
+    height: 43px;
+    margin-bottom: 20px;
+    width: 379px;
+
+}
+
+.bottom {
+    background: rgba(89, 112, 255, 1);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    text-align: center;
+    padding: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a.passw {
+    color: rgba(89, 112, 255, 1);
+    text-align: center;
+
+}
+
+
+@media (max-width: 576px) {
+
+    .left__form-h1 {
+        margin-top: 50px;
+    }
+
+    .card__form {
+        display: block;
+        width: 335px;
+        height: 585px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        font-size: 14px;
+        padding: 20px 30px;
+        margin: 30px 25px 10px;
+    }
+
+    .inp input {
+        margin-top: -5px;
+        height: 43px;
+        margin-bottom: 20px;
+        width: 295px;
+        padding: 0 5px;
+
+    }
+
+    .left__form-h1 {
+        font-size: 22px;
+    }
+
+}
+
+@font-face {
+    font-family: "Ferry_black";
+    src: url("../fonts/ferry_black.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

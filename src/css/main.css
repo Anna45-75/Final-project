@@ -1,0 +1,693 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter";
+    color: rgba(0, 0, 0, 1);
+}
+
+.all__main {
+    width: 100%;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 10px;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.container-fluid {
+    width: 300%;
+}
+
+.logo {
+    background: url(../images/logo.png)center no-repeat;
+    background-position: 0 25px;
+    background-size: 100%;
+    width: 140px;
+    height: 140px;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.login__razd {
+    display: block;
+    width: 1px;
+    height: 16px;
+    background-color: rgba(2, 148, 145, 1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.header__nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.login a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 1px;
+}
+
+.login__log {
+    background: rgba(124, 227, 225, 1);
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.header__data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 50px;
+}
+
+.header__data-service {
+    width: 50%;
+    font-size: 24px;
+}
+
+.header__data-service h1 {
+    font-family: "Ferry_black";
+    text-transform: uppercase;
+    font-size: 60px;
+
+}
+
+.p__top1 {
+    margin-top: 20px;
+
+}
+
+.p__top {
+    margin-top: 60px;
+}
+
+.header__data-service a {
+    background: rgba(89, 112, 255, 1);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+h2 {
+    font-family: "Ferry_black";
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.padd {
+    margin-top: 109px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/prev.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/next.png);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin: -100px;
+}
+
+.card {
+    display: block;
+    width: 400px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 30px 25px 10px;
+}
+
+.card img {
+    width: 20%;
+}
+
+.card__tarif-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+li.card__tarif:first-child {
+    width: 415px;
+    height: 540px;
+    border: solid 2px;
+    border-color: rgba(255, 182, 79, 1);
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    margin-left: -30px;
+}
+
+li.card__tarif {
+    width: 415px;
+    height: 540px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card__tarif-active-top {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    background-color: rgba(255, 182, 79, 1);
+    border-radius: 7px 10px 0px 0px;
+    padding: 30px;
+}
+
+.card__tarif-pro-top {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    background: rgba(124, 227, 225, 1);
+    border-radius: 7px 10px 0px 0px;
+    padding: 30px;
+}
+
+.card__tarif-active-bus {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 7px 10px 0px 0px;
+    padding: 30px;
+    color: #fff;
+}
+
+.card__img {
+    position: absolute;
+    z-index: +1;
+    top: 5px;
+    right: 10px;
+    width: 25%;
+}
+
+.card__strong {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card_bottom--price {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.card_bottom--price1 {
+    color: gray;
+    font-size: 30px;
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+
+.card_bottom {
+    background: rgba(59, 165, 224, 1);
+    border-radius: 10px;
+    padding-left: 12px;
+    width: 162px;
+    margin: 10px 230px;
+}
+
+.card_bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card__middle--first {
+    padding: 0px 15px;
+}
+
+.card__middle {
+    padding: 50px 15px;
+}
+
+.card_bottom--tarif--first {
+    margin-top: 60px;
+}
+
+.card_bottom--tarif {
+    margin-top: 85px;
+}
+
+.card_bottom--tarif--first li {
+    list-style-type: none;
+    margin-left: -25px;
+}
+
+.card_bottom--tarif--first li:before {
+    content: "\2713  ";
+    color: #4dca2b;
+    font-weight: bold;
+}
+
+
+.card_bottom--tarif li {
+    list-style-type: none;
+    margin-left: -25px;
+}
+
+.card_bottom--tarif li:before {
+    content: "\2713  ";
+    color: #4dca2b;
+    font-weight: bold;
+}
+
+
+
+.card_middle--bottom {
+    background: rgba(210, 210, 210, 1);
+    max-width: 90%;
+    padding: 10px;
+    margin-top: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card_middle--bottom a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.card_middle--bottom a:hover {
+    text-decoration: underline;
+}
+
+.card_middle--bottom_pro {
+    background: rgba(89, 112, 255, 1);
+    max-width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.card_middle--bottom_pro a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card_middle--bottom_pro a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background: rgba(2, 148, 145, 1);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer_cl {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.logo_footer {
+    background: url(../images/logo_footer.png) center no-repeat;
+    background-position: 0 5px;
+    background-size: 100%;
+    width: 140px;
+    height: 140px;
+}
+
+.cont {
+    width: 300px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.cont a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__nav_mobile {
+    display: none;
+}
+
+.images-backround {
+    background: url(../images/im2.png) no-repeat;
+    background-clip: content-box;
+    max-width: 100%;
+    height: 576px;
+    margin-top: 30px;
+}
+
+@media (max-width:768px) {
+
+    .header__data-service h1 {
+        font-family: "Ferry_black";
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    .p__top {
+        margin: 20px;
+    }
+
+    .p__top a {
+        display: block;
+        font-size: 18px;
+        padding: 5px 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__data-service {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .padd {
+        margin-top: 50px;
+    }
+
+
+    li.card__tarif:first-child {
+        width: 335px;
+        height: 540px;
+        margin-top: 40px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    li.card__tarif {
+        width: 335px;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+
+    .card__strong {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .card_bottom--price {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    .card_bottom--price1 {
+        color: gray;
+        font-size: 30px;
+        text-decoration: line-through;
+        padding-left: 10px;
+    }
+
+    .card_bottom {
+        background: rgba(59, 165, 224, 1);
+        border-radius: 10px;
+        padding-left: 12px;
+        width: 162px;
+        margin: 10px;
+    }
+
+
+    .card_middle--bottom {
+        padding: 10px;
+        margin-top: 35px;
+        font-size: 20px;
+    }
+
+
+    .card_bottom--tarif--first {
+        margin-top: 30px;
+    }
+
+    .card_bottom--tarif {
+        margin-top: 65px;
+    }
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+        font-size: 18px;
+        padding: 20px 30px;
+        margin-left: 0;
+    }
+
+    .carousel-control-next {
+        margin: 0px;
+    }
+
+    .carousel-control-prev {
+        margin: 0px;
+    }
+
+
+    .card {
+        display: block;
+        width: 298px;
+        height: 188px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .card__tarif-block {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav_mobile {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: rgba(2, 148, 145, 1);
+    }
+
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background: rgba(2, 148, 145, 1);
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    }
+
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #ffffff;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .menu__item_reg {
+        margin-top: 45px;
+    }
+
+    .menu__item_reg a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+    }
+
+    .login__log {
+        background: rgba(124, 227, 225, 1);
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 5px;
+        width: 280px;
+        margin: 10px auto;
+    }
+
+    .login__log a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .menu__item:hover {
+        background-color: #CFD8DC;
+        color: #000000;
+    }
+
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+        background: #fff;
+    }
+
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+        background: #fff;
+    }
+
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+        background: #fff;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        transition-duration: .25s;
+    }
+
+    .menu__box {
+        transition-duration: .25s;
+    }
+
+    .menu__item {
+        transition-duration: .25s;
+    }
+
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        left: 0;
+    }
+
+    .logo_nav {
+        position: absolute;
+        background: url(../images/logo_footer.png) center no-repeat;
+        background-position: 0 5px;
+        background-size: 100%;
+        width: 80px;
+        height: 80px;
+        right: 10px;
+        top: -10px;
+    }
+
+    .logo {
+        position: absolute;
+        background: url(../images/logo.png) center no-repeat;
+        background-position: 0 5px;
+        background-size: 100%;
+        width: 145px;
+        height: 145px;
+        right: 10px;
+        top: -10px;
+    }
+
+    .images-backround {
+        background: url(../images/im2.png) no-repeat left;
+        background-clip: content-box;
+        background-size: auto 392px;
+        max-width: 100%;
+        height: 392px;
+        margin-top: 30px;
+    }
+}
+
+@font-face {
+    font-family: "Ferry_black";
+    src: url("../fonts/ferry_black.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
