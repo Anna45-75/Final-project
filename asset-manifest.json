@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Final-project/static/css/main.57795ac7.css",
+    "main.js": "/Final-project/static/js/main.8bc822a5.js",
+    "static/media/ferry_black.otf": "/Final-project/static/media/ferry_black.8d1c2bfebe1bfba898ae.otf",
+    "static/media/im1.png": "/Final-project/static/media/im1.e108b66de5d4f58f3a41.png",
+    "static/media/im2.png": "/Final-project/static/media/im2.8ed648d5fb9dd71ad4fb.png",
+    "static/media/im9.png": "/Final-project/static/media/im9.ca7ae4cd2349467cbb06.png",
+    "index.html": "/Final-project/index.html",
+    "main.57795ac7.css.map": "/Final-project/static/css/main.57795ac7.css.map",
+    "main.8bc822a5.js.map": "/Final-project/static/js/main.8bc822a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57795ac7.css",
+    "static/js/main.8bc822a5.js"
+  ]
+}
